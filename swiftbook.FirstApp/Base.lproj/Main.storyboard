@@ -15,9 +15,74 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Радуйся каждому дню " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rP-OJ-byJ">
+                                <rect key="frame" x="54" y="134" width="285" height="35"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выбери свой др" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8K2-fu-eCX">
+                                <rect key="frame" x="128.66666666666666" y="199" width="135.99999999999997" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="Rm6-PR-eXq">
+                                <rect key="frame" x="37" y="281" width="320" height="216"/>
+                                <connections>
+                                    <action selector="changeDate:" destination="BYZ-38-t0r" eventType="valueChanged" id="5yh-la-xwo"/>
+                                </connections>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2xx-AZ-9ZH">
+                                <rect key="frame" x="146.66666666666666" y="547" width="100" height="34"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="8fa-ta-OGM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="результат">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="getResult" destination="BYZ-38-t0r" eventType="touchUpInside" id="tlR-np-xQg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ты радуешься жизни уже ... дней" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iyh-rf-sN2">
+                                <rect key="frame" x="96.666666666666686" y="611" width="200" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="yV3-r7-mvZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3rP-OJ-byJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="1zm-kS-LRv"/>
+                            <constraint firstItem="iyh-rf-sN2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dq3-DM-Xcg"/>
+                            <constraint firstItem="2xx-AZ-9ZH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nth-I4-gBC"/>
+                            <constraint firstItem="Rm6-PR-eXq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O4d-lP-5qf"/>
+                            <constraint firstItem="8K2-fu-eCX" firstAttribute="top" secondItem="3rP-OJ-byJ" secondAttribute="bottom" constant="30" id="On6-Cw-GQQ"/>
+                            <constraint firstItem="2xx-AZ-9ZH" firstAttribute="top" secondItem="Rm6-PR-eXq" secondAttribute="bottom" constant="50" id="QU1-WC-tj0"/>
+                            <constraint firstItem="iyh-rf-sN2" firstAttribute="top" secondItem="2xx-AZ-9ZH" secondAttribute="bottom" constant="30" id="RpS-JW-8yo"/>
+                            <constraint firstItem="8K2-fu-eCX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V8Q-W4-MCh"/>
+                            <constraint firstItem="Rm6-PR-eXq" firstAttribute="top" secondItem="8K2-fu-eCX" secondAttribute="bottom" constant="60" id="Xq5-GD-Nt2"/>
+                            <constraint firstItem="3rP-OJ-byJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aNA-Jk-Zhp"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="datePicker" destination="Rm6-PR-eXq" id="0HL-e8-tlK"/>
+                        <outlet property="resultLabel" destination="iyh-rf-sN2" id="EVw-uw-bjY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -27,6 +92,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
