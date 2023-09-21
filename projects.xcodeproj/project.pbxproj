@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CEC070482ABA2CB7004DCC10 /* swiftbook.FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftbook.FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC070482ABA2CB7004DCC10 /* firstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC0704B2ABA2CB7004DCC10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEC0704D2ABA2CB7004DCC10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CEC0704F2ABA2CB7004DCC10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		CEC0703F2ABA2CB7004DCC10 = {
 			isa = PBXGroup;
 			children = (
-				CEC0704A2ABA2CB7004DCC10 /* swiftbook.FirstApp */,
+				CEC0704A2ABA2CB7004DCC10 /* firstApp */,
 				CEC070642ABC2C23004DCC10 /* namesApp */,
 				CEC070492ABA2CB7004DCC10 /* Products */,
 			);
@@ -70,13 +70,13 @@
 		CEC070492ABA2CB7004DCC10 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEC070482ABA2CB7004DCC10 /* swiftbook.FirstApp.app */,
+				CEC070482ABA2CB7004DCC10 /* firstApp.app */,
 				CEC070632ABC2C23004DCC10 /* namesApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEC0704A2ABA2CB7004DCC10 /* swiftbook.FirstApp */ = {
+		CEC0704A2ABA2CB7004DCC10 /* firstApp */ = {
 			isa = PBXGroup;
 			children = (
 				CEC0704B2ABA2CB7004DCC10 /* AppDelegate.swift */,
@@ -87,7 +87,7 @@
 				CEC070562ABA2CB8004DCC10 /* LaunchScreen.storyboard */,
 				CEC070592ABA2CB8004DCC10 /* Info.plist */,
 			);
-			path = swiftbook.FirstApp;
+			path = firstApp;
 			sourceTree = "<group>";
 		};
 		CEC070642ABC2C23004DCC10 /* namesApp */ = {
@@ -107,9 +107,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEC070472ABA2CB7004DCC10 /* swiftbook.FirstApp */ = {
+		CEC070472ABA2CB7004DCC10 /* firstApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEC0705C2ABA2CB8004DCC10 /* Build configuration list for PBXNativeTarget "swiftbook.FirstApp" */;
+			buildConfigurationList = CEC0705C2ABA2CB8004DCC10 /* Build configuration list for PBXNativeTarget "firstApp" */;
 			buildPhases = (
 				CEC070442ABA2CB7004DCC10 /* Sources */,
 				CEC070452ABA2CB7004DCC10 /* Frameworks */,
@@ -119,9 +119,9 @@
 			);
 			dependencies = (
 			);
-			name = swiftbook.FirstApp;
+			name = firstApp;
 			productName = swiftbook.FirstApp;
-			productReference = CEC070482ABA2CB7004DCC10 /* swiftbook.FirstApp.app */;
+			productReference = CEC070482ABA2CB7004DCC10 /* firstApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CEC070622ABC2C23004DCC10 /* namesApp */ = {
@@ -159,7 +159,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CEC070432ABA2CB7004DCC10 /* Build configuration list for PBXProject "swiftbook.FirstApp" */;
+			buildConfigurationList = CEC070432ABA2CB7004DCC10 /* Build configuration list for PBXProject "projects" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -172,7 +172,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEC070472ABA2CB7004DCC10 /* swiftbook.FirstApp */,
+				CEC070472ABA2CB7004DCC10 /* firstApp */,
 				CEC070622ABC2C23004DCC10 /* namesApp */,
 			);
 		};
@@ -497,7 +497,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEC070432ABA2CB7004DCC10 /* Build configuration list for PBXProject "swiftbook.FirstApp" */ = {
+		CEC070432ABA2CB7004DCC10 /* Build configuration list for PBXProject "projects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEC0705A2ABA2CB8004DCC10 /* Debug */,
@@ -506,7 +506,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEC0705C2ABA2CB8004DCC10 /* Build configuration list for PBXNativeTarget "swiftbook.FirstApp" */ = {
+		CEC0705C2ABA2CB8004DCC10 /* Build configuration list for PBXNativeTarget "firstApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEC0705D2ABA2CB8004DCC10 /* Debug */,
